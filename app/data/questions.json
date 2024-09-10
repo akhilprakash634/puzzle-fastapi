@@ -1,0 +1,43 @@
+{
+    "Science": [
+      {
+        "question": "Which planet is known as the Red Planet?",
+        "options": ["Mars", "Venus", "Jupiter"],
+        "answer": "Mars"
+      },
+      {
+        "question": "What is the largest mammal?",
+        "options": ["Elephant", "Blue Whale", "Giraffe"],
+        "answer": "Blue Whale"
+      },
+      {
+        "question": "Which element has the chemical symbol 'O'?",
+        "options": ["Oxygen", "Gold", "Silver"],
+        "answer": "Oxygen"
+      }
+    ],
+    "Geography": [
+      {
+        "question": "What is the capital of France?",
+        "options": ["Paris", "London", "Berlin"],
+        "answer": "Paris"
+      },
+      {
+        "question": "Which is the largest ocean on Earth?",
+        "options": ["Atlantic Ocean", "Indian Ocean", "Pacific Ocean"],
+        "answer": "Pacific Ocean"
+      },
+      {
+        "question": "What is the capital of Japan?",
+        "options": ["Beijing", "Seoul", "Tokyo"],
+        "answer": "Tokyo"
+      }
+    ],
+    "Literature": [
+      {
+        "question": "Who wrote 'Romeo and Juliet'?",
+        "options": ["William Shakespeare", "Charles Dickens", "Jane Austen"],
+        "answer": "William Shakespeare"
+      }
+    ]
+  }
