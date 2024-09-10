@@ -1,6 +1,6 @@
 from typing import Optional
 from app.core.security import get_password_hash, verify_password
-from app.schemas.user import UserCreate, UserInDB, User
+from app.schemas.user import UserCreate, UserInDB, User, UserStats
 from app.core.firebase import db
 
 class CRUDUser:
@@ -38,6 +38,17 @@ class CRUDUser:
             name=user.name,
             phone_number=user.phone_number,
             age=user.age
+        )
+    
+    def get_user_stats(self, user_id: str) -> UserStats:
+        user_sessions = db.collection("quiz_sessions").where("user_id", "==", user_id).get()
+        total_quizzes = len(user_sessions)
+        total_score = sum(session.to_dict()['score'] for session in user_sessions)
+        avg_score = total_score / total_quizzes if total_quizzes > 0 else 0
+        return UserStats(
+            total_quizzes=total_quizzes,
+            total_score=total_score,
+            avg_score=avg_score
         )
 
 user = CRUDUser()

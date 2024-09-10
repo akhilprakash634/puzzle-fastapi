@@ -22,3 +22,8 @@ class User(UserBase):
 
 class UserUpdate(UserBase):
     password: Optional[str] = None
+
+class UserStats(BaseModel):
+    total_quizzes: int
+    total_score: int
+    avg_score: float
