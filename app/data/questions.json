@@ -1,43 +1,376 @@
 {
-    "Science": [
-      {
-        "question": "Which planet is known as the Red Planet?",
-        "options": ["Mars", "Venus", "Jupiter"],
-        "answer": "Mars"
-      },
-      {
-        "question": "What is the largest mammal?",
-        "options": ["Elephant", "Blue Whale", "Giraffe"],
-        "answer": "Blue Whale"
-      },
-      {
-        "question": "Which element has the chemical symbol 'O'?",
-        "options": ["Oxygen", "Gold", "Silver"],
-        "answer": "Oxygen"
-      }
-    ],
-    "Geography": [
-      {
-        "question": "What is the capital of France?",
-        "options": ["Paris", "London", "Berlin"],
-        "answer": "Paris"
-      },
-      {
-        "question": "Which is the largest ocean on Earth?",
-        "options": ["Atlantic Ocean", "Indian Ocean", "Pacific Ocean"],
-        "answer": "Pacific Ocean"
-      },
-      {
-        "question": "What is the capital of Japan?",
-        "options": ["Beijing", "Seoul", "Tokyo"],
-        "answer": "Tokyo"
-      }
-    ],
-    "Literature": [
-      {
-        "question": "Who wrote 'Romeo and Juliet'?",
-        "options": ["William Shakespeare", "Charles Dickens", "Jane Austen"],
-        "answer": "William Shakespeare"
-      }
-    ]
-  }
+  "Science": [
+    {
+      "question": "Which planet is known as the Red Planet?",
+      "options": ["Mars", "Venus", "Jupiter"],
+      "answer": "Mars"
+    },
+    {
+      "question": "What is the largest mammal?",
+      "options": ["Elephant", "Blue Whale", "Giraffe"],
+      "answer": "Blue Whale"
+    },
+    {
+      "question": "Which element has the chemical symbol 'O'?",
+      "options": ["Oxygen", "Gold", "Silver"],
+      "answer": "Oxygen"
+    },
+    {
+      "question": "What is the speed of light?",
+      "options": ["300,000 km/s", "150,000 km/s", "450,000 km/s"],
+      "answer": "300,000 km/s"
+    },
+    {
+      "question": "Who is known as the father of modern physics?",
+      "options": ["Albert Einstein", "Isaac Newton", "Galileo Galilei"],
+      "answer": "Albert Einstein"
+    },
+    {
+      "question": "What is the chemical formula for water?",
+      "options": ["H2O", "CO2", "O2"],
+      "answer": "H2O"
+    },
+    {
+      "question": "Which planet is known as the 'Blue Planet'?",
+      "options": ["Earth", "Uranus", "Neptune"],
+      "answer": "Earth"
+    },
+    {
+      "question": "What is the smallest unit of life?",
+      "options": ["Cell", "Atom", "Molecule"],
+      "answer": "Cell"
+    },
+    {
+      "question": "What is the most abundant gas in the Earth's atmosphere?",
+      "options": ["Nitrogen", "Oxygen", "Carbon Dioxide"],
+      "answer": "Nitrogen"
+    },
+    {
+      "question": "Which organ in the human body is responsible for pumping blood?",
+      "options": ["Heart", "Lungs", "Liver"],
+      "answer": "Heart"
+    },
+    {
+      "question": "What is the chemical formula for table salt?",
+      "options": ["NaCl", "H2O", "CO2"],
+      "answer": "NaCl"
+    },
+    {
+      "question": "What is the hardest natural substance on Earth?",
+      "options": ["Diamond", "Gold", "Iron"],
+      "answer": "Diamond"
+    },
+    {
+      "question": "What gas do plants absorb from the atmosphere for photosynthesis?",
+      "options": ["Carbon Dioxide", "Oxygen", "Nitrogen"],
+      "answer": "Carbon Dioxide"
+    },
+    {
+      "question": "Which planet is known for having a ring system?",
+      "options": ["Saturn", "Mars", "Earth"],
+      "answer": "Saturn"
+    },
+    {
+      "question": "What is the main component of the Sun?",
+      "options": ["Hydrogen", "Helium", "Oxygen"],
+      "answer": "Hydrogen"
+    },
+    {
+      "question": "Which organelle is known as the powerhouse of the cell?",
+      "options": ["Mitochondria", "Nucleus", "Ribosome"],
+      "answer": "Mitochondria"
+    },
+    {
+      "question": "What is the chemical symbol for gold?",
+      "options": ["Au", "Ag", "Pb"],
+      "answer": "Au"
+    },
+    {
+      "question": "What is the boiling point of water in Celsius?",
+      "options": ["100°C", "90°C", "110°C"],
+      "answer": "100°C"
+    },
+    {
+      "question": "What type of bond holds the atoms in a water molecule together?",
+      "options": ["Covalent Bond", "Ionic Bond", "Hydrogen Bond"],
+      "answer": "Covalent Bond"
+    },
+    {
+      "question": "Which planet is known as the 'Evening Star'?",
+      "options": ["Venus", "Mars", "Jupiter"],
+      "answer": "Venus"
+    },
+    {
+      "question": "What is the process by which plants make their food?",
+      "options": ["Photosynthesis", "Respiration", "Fermentation"],
+      "answer": "Photosynthesis"
+    },
+    {
+      "question": "Which planet is the largest in our solar system?",
+      "options": ["Jupiter", "Saturn", "Neptune"],
+      "answer": "Jupiter"
+    },
+    {
+      "question": "What is the name of the process where a liquid turns into a gas?",
+      "options": ["Evaporation", "Condensation", "Sublimation"],
+      "answer": "Evaporation"
+    },
+    {
+      "question": "What type of energy is stored in food?",
+      "options": ["Chemical Energy", "Kinetic Energy", "Thermal Energy"],
+      "answer": "Chemical Energy"
+    },
+    {
+      "question": "What is the smallest unit of an element that retains its chemical properties?",
+      "options": ["Atom", "Molecule", "Cell"],
+      "answer": "Atom"
+    },
+    {
+      "question": "What is the name of the process by which cells divide to form two new cells?",
+      "options": ["Mitosis", "Meiosis", "Fission"],
+      "answer": "Mitosis"
+    },
+    {
+      "question": "What is the study of living organisms called?",
+      "options": ["Biology", "Chemistry", "Physics"],
+      "answer": "Biology"
+    },
+    {
+      "question": "Which planet is known for its Great Red Spot?",
+      "options": ["Jupiter", "Saturn", "Mars"],
+      "answer": "Jupiter"
+    },
+    {
+      "question": "What is the most common element in the Earth's crust?",
+      "options": ["Oxygen", "Silicon", "Aluminum"],
+      "answer": "Oxygen"
+    },
+    {
+      "question": "What is the chemical symbol for iron?",
+      "options": ["Fe", "Ir", "I"],
+      "answer": "Fe"
+    },
+    {
+      "question": "What type of radiation is emitted by the sun?",
+      "options": ["Ultraviolet", "X-ray", "Gamma"],
+      "answer": "Ultraviolet"
+    },
+    {
+      "question": "What is the unit of measure for electric current?",
+      "options": ["Ampere", "Volt", "Ohm"],
+      "answer": "Ampere"
+    }
+  ],
+  "Geography": [
+    {
+      "question": "What is the capital of France?",
+      "options": ["Paris", "London", "Berlin"],
+      "answer": "Paris"
+    },
+    {
+      "question": "Which is the largest ocean on Earth?",
+      "options": ["Atlantic Ocean", "Indian Ocean", "Pacific Ocean"],
+      "answer": "Pacific Ocean"
+    },
+    {
+      "question": "What is the capital of Japan?",
+      "options": ["Beijing", "Seoul", "Tokyo"],
+      "answer": "Tokyo"
+    },
+    {
+      "question": "What is the capital of Brazil?",
+      "options": ["Brasília", "Rio de Janeiro", "São Paulo"],
+      "answer": "Brasília"
+    },
+    {
+      "question": "Which continent is the Sahara Desert located in?",
+      "options": ["Africa", "Asia", "Australia"],
+      "answer": "Africa"
+    }
+  ],
+  "Literature": [
+    {
+      "question": "Who wrote 'Romeo and Juliet'?",
+      "options": ["William Shakespeare", "Charles Dickens", "Jane Austen"],
+      "answer": "William Shakespeare"
+    },
+    {
+      "question": "Who is the author of '1984'?",
+      "options": ["George Orwell", "Aldous Huxley", "Ray Bradbury"],
+      "answer": "George Orwell"
+    },
+    {
+      "question": "Which book begins with the line 'Call me Ishmael'?",
+      "options": ["Moby-Dick", "Pride and Prejudice", "The Odyssey"],
+      "answer": "Moby-Dick"
+    },
+    {
+      "question": "Who wrote 'To Kill a Mockingbird'?",
+      "options": ["Harper Lee", "Mark Twain", "J.D. Salinger"],
+      "answer": "Harper Lee"
+    },
+    {
+      "question": "Who is the author of 'The Great Gatsby'?",
+      "options": ["F. Scott Fitzgerald", "Ernest Hemingway", "John Steinbeck"],
+      "answer": "F. Scott Fitzgerald"
+    }
+  ],
+  "History": [
+    {
+      "question": "Who was the first President of the United States?",
+      "options": ["George Washington", "Thomas Jefferson", "Abraham Lincoln"],
+      "answer": "George Washington"
+    },
+    {
+      "question": "Which war was fought between the North and South regions in the United States?",
+      "options": ["Civil War", "World War I", "American Revolution"],
+      "answer": "Civil War"
+    },
+    {
+      "question": "Who was the first man to step on the moon?",
+      "options": ["Neil Armstrong", "Buzz Aldrin", "Yuri Gagarin"],
+      "answer": "Neil Armstrong"
+    },
+    {
+      "question": "Which ancient civilization built the pyramids?",
+      "options": ["Egyptians", "Romans", "Greeks"],
+      "answer": "Egyptians"
+    },
+    {
+      "question": "In what year did World War II end?",
+      "options": ["1945", "1939", "1941"],
+      "answer": "1945"
+    }
+  ],
+  "Math": [
+    {
+      "question": "What is the value of Pi up to two decimal places?",
+      "options": ["3.14", "3.15", "3.13"],
+      "answer": "3.14"
+    },
+    {
+      "question": "What is the square root of 64?",
+      "options": ["8", "6", "7"],
+      "answer": "8"
+    },
+    {
+      "question": "What is the sum of the angles in a triangle?",
+      "options": ["180 degrees", "360 degrees", "90 degrees"],
+      "answer": "180 degrees"
+    },
+    {
+      "question": "What is 15% of 200?",
+      "options": ["30", "20", "40"],
+      "answer": "30"
+    },
+    {
+      "question": "What is the next prime number after 7?",
+      "options": ["11", "9", "10"],
+      "answer": "11"
+    }
+  ],
+  "Sports": [
+    {
+      "question": "Which country won the FIFA World Cup in 2018?",
+      "options": ["France", "Germany", "Brazil"],
+      "answer": "France"
+    },
+    {
+      "question": "How many players are there on a soccer team?",
+      "options": ["11", "10", "12"],
+      "answer": "11"
+    },
+    {
+      "question": "Who holds the record for the most home runs in a single MLB season?",
+      "options": ["Barry Bonds", "Babe Ruth", "Hank Aaron"],
+      "answer": "Barry Bonds"
+    },
+    {
+      "question": "Which sport is known as the 'king of sports'?",
+      "options": ["Soccer", "Basketball", "Tennis"],
+      "answer": "Soccer"
+    },
+    {
+      "question": "In which country were the first Olympic Games held?",
+      "options": ["Greece", "France", "USA"],
+      "answer": "Greece"
+    }
+  ],
+  "Technology": [
+    {
+      "question": "Who is known as the father of the computer?",
+      "options": ["Charles Babbage", "Alan Turing", "John von Neumann"],
+      "answer": "Charles Babbage"
+    },
+    {
+      "question": "What does HTTP stand for?",
+      "options": ["Hypertext Transfer Protocol", "Hyperlink Text Protocol", "Hyper Transfer Protocol"],
+      "answer": "Hypertext Transfer Protocol"
+    },
+    {
+      "question": "Which company created the iPhone?",
+      "options": ["Apple", "Samsung", "Google"],
+      "answer": "Apple"
+    },
+    {
+      "question": "What is the main function of a CPU?",
+      "options": ["Processing data", "Storing data", "Displaying data"],
+      "answer": "Processing data"
+    },
+    {
+      "question": "Which programming language is known as the 'language of the web'?",
+      "options": ["JavaScript", "Python", "HTML"],
+      "answer": "JavaScript"
+    }
+  ],
+  "Music": [
+    {
+      "question": "Who is known as the 'King of Pop'?",
+      "options": ["Michael Jackson", "Elvis Presley", "Prince"],
+      "answer": "Michael Jackson"
+    },
+    {
+      "question": "What is the name of the Beatles' first album?",
+      "options": ["Please Please Me", "Help!", "Abbey Road"],
+      "answer": "Please Please Me"
+    },
+    {
+      "question": "Which instrument has 88 keys?",
+      "options": ["Piano", "Guitar", "Violin"],
+      "answer": "Piano"
+    },
+    {
+      "question": "Who composed the 'Fifth Symphony'?",
+      "options": ["Beethoven", "Mozart", "Bach"],
+      "answer": "Beethoven"
+    },
+    {
+      "question": "Which singer is known for the hit song 'Thriller'?",
+      "options": ["Michael Jackson", "Madonna", "Whitney Houston"],
+      "answer": "Michael Jackson"
+    }
+  ],
+  "Movies": [
+    {
+      "question": "Which movie features the character 'Forrest Gump'?",
+      "options": ["Forrest Gump", "Saving Private Ryan", "Cast Away"],
+      "answer": "Forrest Gump"
+    },
+    {
+      "question": "Who directed 'Jurassic Park'?",
+      "options": ["Steven Spielberg", "James Cameron", "George Lucas"],
+      "answer": "Steven Spielberg"
+    },
+    {
+      "question": "Which movie won the Oscar for Best Picture in 1994?",
+      "options": ["Forrest Gump", "Pulp Fiction", "The Shawshank Redemption"],
+      "answer": "Forrest Gump"
+    },
+    {
+      "question": "Who played the character of 'Jack' in 'Titanic'?",
+      "options": ["Leonardo DiCaprio", "Brad Pitt", "Tom Cruise"],
+      "answer": "Leonardo DiCaprio"
+    }
+  ]
+}
+    

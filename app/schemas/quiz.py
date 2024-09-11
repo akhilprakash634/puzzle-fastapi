@@ -16,3 +16,8 @@ class QuizSession(BaseModel):
 
 class AnswerSubmit(BaseModel):
     answer: str
+
+class LeaderboardEntry(BaseModel):
+    user_id: str
+    username: str
+    score: int
